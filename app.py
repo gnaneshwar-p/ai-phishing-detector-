@@ -1,5 +1,5 @@
 import streamlit as st
-from src.model import train_model
+from src.model import *
 from src.preprocess import load_and_preprocess_data
 from src.detector import detect_email
 
